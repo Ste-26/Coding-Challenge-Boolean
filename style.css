@@ -1,0 +1,86 @@
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 63%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+header{
+    padding-top: 110px;
+    margin-top: 40px;
+}
+
+.logo{
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+
+.titolo-principale{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 8px;
+    color: rgba(0, 221, 0, 255);
+}
+
+nav{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bottoni{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 221, 0, 255);
+    padding: 10px;
+}
+
+.bottoni button {
+    margin: 0 3px;
+}
+
+main{
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.nome-monopattino{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.carica{
+    height: 30px;
+    border-radius: 7px;
+}
+
+#carica1{
+    margin-right: 68%;
+    background-color: rgba(245,180,83,255);
+    border-color: rgba(245,180,83,255);
+    
+}
+
+#carica2{
+    margin-right: 45%;
+    background-color: rgba(30,195,30,255);
+    border-color: rgba(30,195,30,255);
+    
+}
+
+#carica3{
+    margin-right: 88%;
+    background-color: rgba(190,65,65,255);
+    border-color: rgba(190,65,65,255);
+    
+}
